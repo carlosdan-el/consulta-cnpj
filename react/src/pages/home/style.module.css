@@ -1,0 +1,43 @@
+.form_cnpj {
+  background-color: var(--foreground);
+  width: 100%;
+  max-width: 350px;
+  margin: 0px auto;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+}
+
+.container_input {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_input label {
+  margin-bottom: 4px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.result_data {
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+  border: 1px solid var(--border-color);
+  background-color: var(--foreground);
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.result_data h2 {
+  margin-bottom: 1rem;
+}
+
+.form_errors_content ul li {
+  font-size: 0.8rem;
+  color: var(--red);
+}
